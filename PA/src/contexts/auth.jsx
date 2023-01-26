@@ -48,7 +48,7 @@ export const AuthProvider = ({ children }) => {
                 apiii.defaults.headers.Authorization = `Bearer ${response.headers['authorization'].split(' ')[1]}`
                 return navigate("/listaativos");
             })
-        // return navigate("/login");
+        
         } catch (error) {
             alert("Email e/ou senha incorretos");
         }
