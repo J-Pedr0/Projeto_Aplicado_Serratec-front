@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Roboto&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container1{
+    display: flex;
+    /* flex-flow: row wrap; */
+    width: 100vw;
+    height: 100vh;
+    }
+
+.coluna-501 {
+    width: 55%;
+    height: 100%;
+    background-color: #D9D9D9;
+    
+}
+
+.coluna-502 {
+    width: 45%;
+    height: 100%;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+}
+
+
+
+.coluna1{
+    
+    width: 100%;
+    height: 100%;
+}
+
+.coluna2{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 17%;
+    width: 100%;
+    height: 100%;
+}
+
+.imagem img{
+    height: 100%;
+    width: 100%;
+}
+
+.logo{
+    width: 110%;
+    height: 10%;
+    padding-left: 30%;
+    margin-bottom: 50px;
+}
+
+.logo img{
+    height: 150%;
+    width: 60%;
+    text-align: center;
+}
+
+.texto h2{
+    color: #03A688;
+    padding-top: 12px;
+    text-align: center; 
+}
+
+.texto p{
+    
+    color: #3D3D3D;
+    
+    text-align: center; 
+}
+
+a {
+    text-decoration: none !important;
+  }
+
+.text-muted{
+    
+    text-align: center ; 
+    
+}
+
+.iconesInferiores{
+    display: flex;
+    flex-direction: row;
+    height: 8%;
+    width: 8%;
+    top: 92%;
+    left: 88%;
+    position: absolute;
+    
+}
+
+.iconesInferiores img{
+    height: 70%;
+    width: 70%;
+    padding-right: 15px;
+}
+
+.botao{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
